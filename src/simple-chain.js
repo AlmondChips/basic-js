@@ -34,10 +34,10 @@ const chainMaker = {
 	this.chain = [];
     return "( " + chainCopy.join(' )~~( ') +" )";
   }
-};
+}
 
 
-console.log(chainMaker.addLink(function () { }).addLink(null).finishChain())
+// console.log(chainMaker.addLink(function () { }).addLink(null).finishChain())
 
 module.exports = {
   chainMaker

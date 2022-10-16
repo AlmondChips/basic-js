@@ -101,7 +101,7 @@ function transform(arr) {
 
 }
 
-console.log(transform(['--discrard-next', { foo: 'bar' } ]))
+// console.log(transform(['--discrard-next', { foo: 'bar' } ]))
 
 module.exports = {
   transform

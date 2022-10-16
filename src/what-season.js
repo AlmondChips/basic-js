@@ -37,7 +37,7 @@ function getSeason(date) {
  }
 }
 
-console.log(getSeason(new Date(2020, 02, 31)))
+// console.log(getSeason(new Date(2020, 02, 31)))
 
 
 // getSeason('foo'),
