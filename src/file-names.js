@@ -33,7 +33,7 @@ function renameFiles(names) {
 				copyNames[i] = checkedNameBy;
 				currentName = checkedNameBy;		
 			}
-
+			
 			if(j+1 === i) j = copyNames.length+1;
 			
 		}
