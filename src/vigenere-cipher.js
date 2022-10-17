@@ -54,18 +54,13 @@ class VigenereCipheringMachine {
 if(this.mode){
 	return encrWord.toUpperCase();
 }
-else return encrWord.toUpperCase().split('').reverse().join('');
+else return encrWord.toUpperCase().split('').reverse().join('');	
+}
 
-	
-  }
   decrypt(message, key) {
 	if(message === undefined || key === undefined) throw new Error('Incorrect arguments!');
 	message = message.toLowerCase();
 	key = key.toLowerCase();
-	// if(this.mode === false){
-	// 	message = message.split('').reverse().join('');
-	// }
-
 	while(key.length < message.replace(/ /g,'').length){
 		key+= key;
 	}
